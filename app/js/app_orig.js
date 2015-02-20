@@ -1,8 +1,6 @@
 'use strict';
 window.onload = function() {
 
-var VideoPlayer = (function (){
-
   // Video
   var video = document.getElementById('video');
 
@@ -98,7 +96,4 @@ var VideoPlayer = (function (){
     // Update the video volume
     video.volume = volumeBar.value;
   });
-
-
-})(); //end VideoPlayer module
-}; // end window.onload
+};
