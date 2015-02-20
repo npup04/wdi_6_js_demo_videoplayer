@@ -99,6 +99,5 @@ var VideoPlayer = (function (){
     video.volume = volumeBar.value;
   });
 
-
 })(); //end VideoPlayer module
 }; // end window.onload
